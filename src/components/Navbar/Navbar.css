@@ -1,0 +1,41 @@
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+
+.navbar-left {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.text {
+  color: #fffffe;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 50vw;
+}
+
+.link {
+  color: #fffffe;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+}
