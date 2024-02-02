@@ -1,9 +1,11 @@
-import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
+import MainPage from "./pages/MainPage/MainPage";
+
 function App() {
   return (
     <>
       <Navbar />
+      <MainPage />
     </>
   );
 }

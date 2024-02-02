@@ -1,0 +1,31 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 100px;
+  gap: 20px;
+}
+
+.projects-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.projects-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.projects-paragraph {
+  font-size: 1.4rem;
+  color: #a7a9be;
+}
+
+.projects-bottom {
+  display: flex;
+  border: 2px solid pink;
+  flex-wrap: wrap;
+  gap: 40px;
+}

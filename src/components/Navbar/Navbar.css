@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 100px;
+  background-color: #0f0e17;
 }
 
 .navbar-left {

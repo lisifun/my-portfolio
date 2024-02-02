@@ -3,11 +3,11 @@ import "./Navbar.css";
 import profile from "../../assets/images/profile.png";
 
 const navElements = [
-  { element: "Home", link: "/" },
-  { element: "About", link: "/about" },
-  { element: "Skills", link: "/skills" },
-  { element: "Projects", link: "/projects" },
-  { element: "Contact", link: "/contact" },
+  { element: "Home", link: "home" },
+  { element: "About", link: "about" },
+  { element: "Skills", link: "skills" },
+  { element: "Projects", link: "projects" },
+  { element: "Contact", link: "contact" },
 ];
 const Navbar = () => {
   return (
@@ -19,9 +19,9 @@ const Navbar = () => {
       <div className="navbar-right">
         {navElements.map((navElement, index) => {
           return (
-            <Link className="link" key={index} to={navElement.link}>
+            <a className="link" key={index} href={`#${navElement.link}`}>
               {navElement.element}
-            </Link>
+            </a>
           );
         })}
       </div>
