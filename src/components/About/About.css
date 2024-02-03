@@ -1,0 +1,19 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 100px;
+  gap: 80px;
+  background-color: #ff8906;
+}
+
+.about-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about-paragraph {
+  font-size: 1.4rem;
+  text-align: center;
+  width: 50vw;
+}
