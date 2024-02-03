@@ -1,0 +1,26 @@
+.contact {
+  background-color: #ff8906;
+  padding: 80px 100px;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.logo-name {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.about-accounts {
+  display: flex;
+  gap: 20px;
+}
+
+.linkedin-icon,
+.github-icon {
+  font-size: 2rem;
+  color: #fffffe;
+}
