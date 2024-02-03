@@ -1,0 +1,12 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, #0f0e17 50%, #ff8906 50%);
+  padding-bottom: 100px;
+}
+
+.skill-list {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
