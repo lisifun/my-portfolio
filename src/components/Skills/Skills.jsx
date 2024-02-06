@@ -7,15 +7,15 @@ const skillsInfo = [
   {
     title: "Frontend Developer",
     description:
-      "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
-    devTools: ["HTML", "CSS", "React", "Bootstrap"],
+      "I specialize in crafting visually appealing and user-centric web applications, enjoying the process of coding from scratch to bring creative ideas to life in the browser.",
+    devTools: ["JavaScript", "React", "HTML", "CSS", "Bootstrap"],
     icon: frontend,
   },
   {
     title: "Backend Developer",
     description:
-      "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
-    devTools: ["Node.js", "Express.js", "MongoDB"],
+      "With expertise in server-side logic and application architecture, I focus on building robust foundations for web applications, ensuring efficiency, scalability, and a seamless user experience.",
+    devTools: ["Node.js", "Express.js", "MongoDB", 'RESTful'],
     icon: backend,
   },
 ];

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 import profile from "../../assets/images/profile.png";
 
@@ -14,7 +13,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar-left">
         <img className="logo" src={profile} />
-        <div className="text">lisifun</div>
+        <div className="text">Lisi Fundora</div>
       </div>
       <div className="navbar-right">
         {navElements.map((navElement, index) => {

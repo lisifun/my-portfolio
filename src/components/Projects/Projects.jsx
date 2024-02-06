@@ -44,7 +44,7 @@ const Projects = () => {
       <div className="projects-top">
         <div className="projects-heading">My Recent Work</div>
         <div className="projects-paragraph">
-          Here are a few past projects I've worked on.{" "}
+          Here are a few past projects I've worked on.
         </div>
       </div>
       <div className="projects-bottom">

@@ -1,10 +1,12 @@
-/* Navbar */
-
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 10px 100px;
   background-color: #0f0e17;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 88vw;
 }
 
 .navbar-left {
@@ -29,9 +31,9 @@
 .navbar-right {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-
+  justify-content: flex-end;
   width: 50vw;
+  gap: 40px;
 }
 
 .link {

@@ -2,20 +2,20 @@
   background-image: url("../../assets/images/banner5.png");
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 90vh;
   color: #fffffe;
   display: flex;
   padding: 40px 100px;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
 .presentation-left {
   width: 40vw;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 24px;
+  align-items: flex-start;
 }
 
 .heading {
@@ -24,7 +24,7 @@
 }
 
 .paragraph {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: #a7a9be;
   width: 35vw;
   text-align: justify;
@@ -39,4 +39,21 @@ span {
   height: 500px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.button-download {
+  border-radius: 16px;
+  background-color: #ff8906;
+  border: none;
+  color: #fffffe;
+  padding: 12px;
+  font-family: Quicksand, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.link-button {
+  color: #fffffe;
+  font-size: 1.2rem;
+  text-decoration: none;
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 80px 100px;
-  gap: 80px;
+  gap: 40px;
   background-color: #ff8906;
 }
 
@@ -16,4 +16,15 @@
   font-size: 1.4rem;
   text-align: center;
   width: 50vw;
+}
+
+.button-contact {
+  border-radius: 16px;
+  background-color: #0f0e17;
+  border: none;
+  color: #fffffe;
+  padding: 12px;
+  font-family: Quicksand, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }

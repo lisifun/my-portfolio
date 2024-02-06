@@ -16,6 +16,16 @@ const Presentation = () => {
           dedicated to building seamless and user-friendly{" "}
           <span>web applications</span>.
         </div>
+
+        <button className="button-download">
+          <a
+          className="link-button"
+            target="_blank"
+            href="https://docs.google.com/document/d/1ZgkQdRvlXIIjL6MZNup3bMkT1HSYhDv2ho53aQHh-mQ/edit?usp=sharing"
+          >
+            View Full Resume
+          </a>
+        </button>
       </div>
       <div className="presentation-right">
         <img className="profile-photo" src={profile} />

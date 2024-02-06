@@ -1,26 +1,90 @@
 .contact {
-  background-color: #ff8906;
-  padding: 80px 100px;
-}
-
-.about-left {
+  background-image: url("../../assets/images/banner6.png");
+  background-size: cover;
+  background-position: center;
+  /* height: 80vh; */
+  color: #fffffe;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-}
-
-.logo-name {
-  display: flex;
-  gap: 12px;
+  padding: 100px;
+  justify-content: center;
   align-items: center;
+  gap: 40px;
+  /* border: 1px solid green; */
 }
-.about-accounts {
-  display: flex;
-  gap: 20px;
+.contact-heading {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-.linkedin-icon,
-.github-icon {
-  font-size: 2rem;
+.contact-paragraph {
+  font-size: 1.4rem;
+  text-align: center;
+  width: 38vw;
+}
+.contact-form {
+  width: 40vw;
+  background-color: #fffffe;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  color: #0f0e17;
+  gap: 40px;
+  padding: 4rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.name-label,
+.email-label,
+.message-label {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.name-input,
+.email-input,
+.message-input {
+  padding: 12px;
+  border: none;
+  box-shadow: 0 4px 8px #0000001a;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  border-radius: 10px;
+  font-family: Quicksand, sans-serif;
+}
+
+/* color: #333;
+    padding: 2rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 1.6rem;
+    letter-spacing: 0;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 600; */
+
+.button-submit {
+  align-self: flex-end;
+  border-radius: 16px;
+  background-color: #ff8906;
+  border: none;
   color: #fffffe;
+  padding: 12px;
+  font-family: Quicksand, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #fffffe;
+  font-size: 1.2rem;
+}
+
+textarea {
+  resize: none;
 }

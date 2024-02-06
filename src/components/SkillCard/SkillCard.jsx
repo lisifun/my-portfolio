@@ -12,8 +12,8 @@ const SkillCard = ({ skill }) => {
           <span>Dev Tools:</span>
         </div>
         <div>
-          {devTools.map((tool) => {
-            return <div>{tool}</div>;
+          {devTools.map((tool, index) => {
+            return <div key={index}>{tool}</div>;
           })}
         </div>
       </div>
